@@ -1,0 +1,12 @@
+{
+  "name": "shoper-test",
+  "version": "0.0.1",
+  "description": "Shoper test task",
+  "author": "Rafał Kamiński",
+  "dependencies": {
+    "json-server": "0.17.0"
+  },
+  "scripts": {
+    "start": "json-server -p 4000 --watch products.json & open ./index.html"
+  }
+}
